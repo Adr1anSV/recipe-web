@@ -36,3 +36,11 @@ body {
   padding-top: clamp(2rem, 10vh, 10rem);
   padding-bottom: clamp(2rem, 10vh, 10rem);
 }
+
+@media (width < 910px) {
+  .app {
+    flex-direction: column;
+    row-gap: 2rem;
+    height: auto;
+  }
+}
